@@ -1,0 +1,17 @@
+.container {
+	display:flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.split{
+    flex-grow:1;
+    padding: 2%;
+    flex-basis: 42%;
+
+}
+@media (max-width:980px) {
+    .split{
+        flex-basis:94%;
+    }
+    
+}
